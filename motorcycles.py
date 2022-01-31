@@ -13,5 +13,15 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 # print(motorcycles)
 
 # Inserting elements into a list
-motorcycles.insert(0, 'ducati')
+
+# motorcycles.insert(0, 'ducati')
+# print(motorcycles)
+
+# Removing an Item Using the del Statement
+
 print(motorcycles)
+del motorcycles[0]
+print(motorcycles)
+
+
+
