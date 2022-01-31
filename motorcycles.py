@@ -8,8 +8,10 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 
 # Adding elements to a list
 
-print(motorcycles)
-motorcycles.append('ducati')
-print(motorcycles)
+# print(motorcycles)
+# motorcycles.append('ducati')
+# print(motorcycles)
 
-
+# Inserting elements into a list
+motorcycles.insert(0, 'ducati')
+print(motorcycles)
