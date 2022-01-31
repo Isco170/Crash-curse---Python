@@ -19,9 +19,17 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 
 # Removing an Item Using the del Statement
 
+# print(motorcycles)
+# del motorcycles[0]
+# print(motorcycles)
+
+# Removing an Item Using the pop() Method
+
 print(motorcycles)
-del motorcycles[0]
+
+popped_motorcycle = motorcycles.pop()
 print(motorcycles)
+print(popped_motorcycle)
 
 
 
