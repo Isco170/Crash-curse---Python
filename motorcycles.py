@@ -25,11 +25,17 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 
 # Removing an Item Using the pop() Method
 
-print(motorcycles)
+# print(motorcycles)
 
-popped_motorcycle = motorcycles.pop()
+# popped_motorcycle = motorcycles.pop()
+# print(motorcycles)
+# print(popped_motorcycle)
+
+#  Removing an Item by Value
+
 print(motorcycles)
-print(popped_motorcycle)
+motorcycles.remove('suzuki')
+print(motorcycles)
 
 
 
