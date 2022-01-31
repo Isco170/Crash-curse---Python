@@ -33,9 +33,9 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 
 #  Removing an Item by Value
 
-print(motorcycles)
-motorcycles.remove('suzuki')
-print(motorcycles)
+# print(motorcycles)
+# motorcycles.remove('suzuki')
+# print(motorcycles)
 
 
 
