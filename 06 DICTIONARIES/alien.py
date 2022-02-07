@@ -8,8 +8,12 @@ print(alien_0)
 # print(alien_0)
 
 # Modifying values in a dictionary
-print(f"The alien is {alien_0['color']}.")
+# print(f"The alien is {alien_0['color']}.")
 
-alien_0['color'] = 'yellow'
-print(f"The alien is now {alien_0['color']}.")
+# alien_0['color'] = 'yellow'
+# print(f"The alien is now {alien_0['color']}.")
+
+# Removing key-value pairs
+del alien_0['points']
+print(alien_0)
 
