@@ -3,6 +3,15 @@
 # print(contents)
 
 filename = './10 FILES AND EXCEPTIONS/pi_digits.txt'
+
+# with open(filename) as file_object:
+#     for line in file_object:
+#         print(line)
+
+# Making a list of lines from a file
 with open(filename) as file_object:
-    for line in file_object:
-        print(line)
+    lines = file_object.readlines()
+
+for line in lines:
+    print(line.rstrip())
+
